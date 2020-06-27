@@ -1,0 +1,5 @@
+.container {
+    max-width: 60rem;           //if max width is not provided, the content will take the entire space availabe and won't be then able to center the content.
+    margin: 0 auto;
+    padding: 0 $s-size;
+}
