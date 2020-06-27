@@ -8,7 +8,8 @@
     "serve": "live-server public/",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "build": "webpack --watch --mode=development",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "start":"webpack-dev-server"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
